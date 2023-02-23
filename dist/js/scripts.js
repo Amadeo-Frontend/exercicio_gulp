@@ -1,0 +1,1 @@
+const scrollTopBtn=document.querySelector(".scrollToTop-btn");window.addEventListener("scroll",function(){scrollTopBtn.classList.toggle("active",300<this.window.scrollY)}),scrollTopBtn.addEventListener("click",()=>{document.body.scrollTop=0,document.documentElement.scrollTop=0});
